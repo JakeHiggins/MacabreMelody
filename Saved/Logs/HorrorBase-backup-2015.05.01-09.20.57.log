@@ -1,0 +1,1424 @@
+﻿Log file open, 04/30/15 15:54:15
+LogInit:Display: Running engine for game: HorrorBase
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.30-19.54.15:114][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.04.30-19.54.15:147][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.30-19.54.15:161][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.30-19.54.15:170][  0]LogInit: Object subsystem initialized
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/HorrorBase/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/HorrorBase/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.30-19.54.15:172][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/HorrorBase/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-19.54.15:172][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.30-19.54.15:172][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.30-19.54.15:225][  0]LogInit: Computer: OH1380-11
+[2015.04.30-19.54.15:225][  0]LogInit: User: jth7036
+[2015.04.30-19.54.15:225][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.04.30-19.54.15:225][  0]LogInit: High frequency timer resolution =3.515632 MHz
+[2015.04.30-19.54.15:225][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.04.30-19.54.15:225][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.30-19.54.15:225][  0]LogMemory: Process Physical Memory: 45.73 MB used, 45.73 MB peak
+[2015.04.30-19.54.15:225][  0]LogMemory: Process Virtual Memory: 26.23 MB used, 26.23 MB peak
+[2015.04.30-19.54.15:225][  0]LogMemory: Physical Memory: 3364.95 MB used, 16336.19 MB total
+[2015.04.30-19.54.15:225][  0]LogMemory: Virtual Memory: 285.36 MB used, 134217728.00 MB total
+[2015.04.30-19.54.15:253][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.04.30-19.54.15:253][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.04.30-19.54.15:254][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.30-19.54.15:254][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.30-19.54.15:254][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.30-19.54.15:257][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.30-19.54.15:266][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.30-19.54.15:399][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.30-19.54.15:455][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.30-19.54.15:455][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.30-19.54.15:526][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.30-19.54.17:878][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-19.54.18:676][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-19.54.18:740][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.30-19.54.18:773][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.30-19.54.18:773][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.30-19.54.18:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file J:/HorrorBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.30-19.54.18:773][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.30-19.54.18:888][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.30-19.54.18:900][  0]LogDerivedDataCache: Using Local data cache path D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.30-19.54.19:184][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.30-19.54.19:184][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.30-19.54.19:551][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.30-19.54.19:651][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.30-19.54.20:480][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.30-19.54.20:720][  0]SourceControl: Info Source control is disabled
+[2015.04.30-19.54.20:720][  0]SourceControl: Info Source control is disabled
+[2015.04.30-19.54.20:720][  0]SourceControl: Info Source control is disabled
+[2015.04.30-19.54.20:720][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.30-19.54.20:720][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.30-19.54.20:730][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.30-19.54.20:839][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.1
+'
+[2015.04.30-19.54.21:034][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.30-19.54.21:034][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.30-19.54.21:136][  0]LogEngine: Initializing Engine...
+[2015.04.30-19.54.23:289][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.30-19.54.23:307][  0]LogInit: FAudioDevice initialized.
+[2015.04.30-19.54.23:346][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.30-19.54.23:364][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.30-19.54.23:369][  0]LogInit: Texture streaming: Enabled
+[2015.04.30-19.54.23:461][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.30-19.54.23:462][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.30-19.54.23:462][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.30-19.54.23:462][  0]LogAnalytics: SetUserId 593fc67642b971ecd262c8a532266618|76f5d0457a0c47cfa4e62c1627123b6f|3361363f-9ac8-4dd0-8d7c-f16ac9e9cf3e
+[2015.04.30-19.54.23:462][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.30-19.54.23:485][  0]LogInit: Transaction tracking system initialized
+[2015.04.30-19.54.23:671][  0]BlueprintLog: New page: Editor Load
+[2015.04.30-19.54.23:709][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.04.30-19.54.23:709][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.30-19.54.28:770][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-19.54.29:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-19.54.29:706][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.30-19.54.29:707][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.30-19.54.29:712][  0]LogConsoleResponse:Display: 
+[2015.04.30-19.54.29:884][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.30-19.54.30:029][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.30-19.54.30:137][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.1
+'
+[2015.04.30-19.54.30:137][  0]Cmd: MAP LOAD FILE="J:/HorrorBase/Content/HorrorAssets/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.30-19.54.30:138][  0]LightingResults: New page: Lighting Build
+[2015.04.30-19.54.30:151][  0]MapCheck: New page: Map Check
+[2015.04.30-19.54.30:151][  0]LightingResults: New page: Lighting Build
+[2015.04.30-19.54.30:165][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000135B39F380
+[2015.04.30-19.54.30:835][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.30-19.54.33:324][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.30-19.54.33:432][  0]LogAIModule: Creating AISystem for world House
+[2015.04.30-19.54.33:433][  0]Cmd: MAP CHECKDEP
+[2015.04.30-19.54.33:433][  0]MapCheck: New page: House - Apr 30, 2015, 11:54:33 AM
+[2015.04.30-19.54.33:569][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.168ms to complete.
+[2015.04.30-19.54.33:569][  0]LogFileHelpers: Loading map 'House' took 3.432
+[2015.04.30-19.54.33:711][  0]LogCollectionManager: Loaded 0 collections in 0.001813 seconds
+[2015.04.30-19.54.33:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 1696 classes and 261 folders.
+[2015.04.30-19.54.33:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2015.04.30-19.54.33:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.30-19.54.33:830][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.30-19.54.33:835][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.30-19.54.33:860][  0]LogLoad: Full Startup: 25.48 seconds (BP compile: 1.25 seconds)
+[2015.04.30-19.54.34:316][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Blueprints'
+[2015.04.30-19.54.34:366][  0]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.04.30-19.54.34:439][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.30-19.54.34:571][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x456 (Frame:16).
+[2015.04.30-19.54.35:982][  5]LogAssetRegistry: Asset discovery search completed in 12.2843 seconds
+[2015.04.30-19.54.36:320][  6]AssetReimport: New page: Outstanding source content changes 11:54:36 AM
+[2015.04.30-19.54.36:324][  6]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-19.54.47:027][  6]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Textures/planks.uasset"'
+[2015.04.30-19.54.47:250][  6]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.54.47:250][  6]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.54.47:250][  6]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.54.47:456][  6]AssetReimport: Info Attempting to delete planks (its source file has been removed).
+[2015.04.30-19.54.47:614][ 13]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Blueprints/CopLight.uasset" "J:/HorrorBase/Content/HorrorAssets/Blueprints/FiretruckLight.uasset" "J:/HorrorBase/Content/HorrorAssets/Blueprints/FlashlightFPS.uasset" "J:/HorrorBase/Content/HorrorAssets/Blueprints/InventoryInterface.uasset"'
+[2015.04.30-19.54.47:724][ 19]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.54.47:724][ 19]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.54.47:735][ 19]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.54.48:354][ 83]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Blueprints/Door.uasset" "J:/HorrorBase/Content/HorrorAssets/Blueprints/Pickup.uasset"'
+[2015.04.30-19.54.48:582][103]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.54.48:582][103]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.54.48:594][104]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.54.50:650][327]LogRenderer:Warning: Reallocating scene render targets to support 1104x584 (Frame:359).
+[2015.04.30-19.54.52:125][496]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Props'
+[2015.04.30-19.54.52:614][546]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Textures'
+[2015.04.30-19.54.53:627][667]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Textures/Flashlight_Cookie_T.uasset"'
+[2015.04.30-19.54.53:734][680]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.54.53:734][680]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.54.53:737][680]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.54.58:178][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets'
+[2015.04.30-19.55.02:095][613]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/NewFolder'
+[2015.04.30-19.55.09:645][509]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import'
+[2015.04.30-19.55.23:532][741]LogAssetTools:Warning: Failed to import 'Plank_Fence_Geo_Piskas'. Unknown extension ''.
+[2015.04.30-19.55.36:102][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__11_Normal_Bump.uasset"'
+[2015.04.30-19.55.36:217][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.55.36:217][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.55.36:217][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.55.36:217][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/Map__11_Normal_Bump.tga)
+[2015.04.30-19.55.36:272][779]0.000016 seconds to analyze Texture2D /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__11_Normal_Bump.Map__11_Normal_Bump
+
+[2015.04.30-19.55.38:536][779]LogTexture:Display: Building textures: Map__11_Normal_Bump (BC5)
+[2015.04.30-19.55.38:677][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__8_Normal_Bump.uasset"'
+[2015.04.30-19.55.38:788][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.55.38:788][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.55.38:788][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.55.38:788][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/Map__8_Normal_Bump.tga)
+[2015.04.30-19.55.38:839][779]0.000016 seconds to analyze Texture2D /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__8_Normal_Bump.Map__8_Normal_Bump
+
+[2015.04.30-19.55.38:881][779]LogTexture:Display: Building textures: Map__8_Normal_Bump (BC5)
+[2015.04.30-19.55.38:952][779]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.mtl'. Unknown extension 'mtl'.
+[2015.04.30-19.55.38:997][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.uasset"'
+[2015.04.30-19.55.39:117][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.55.39:117][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.55.39:138][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.55.39:141][779]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.obj)
+[2015.04.30-19.55.47:041][779]LogFbx: Loading FBX Scene from \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.obj
+[2015.04.30-19.55.47:375][779]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.30-19.55.47:379][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence'
+[2015.04.30-19.55.47:380][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence'
+[2015.04.30-19.55.47:380][779]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence.plank_fence'
+[2015.04.30-19.55.47:427][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.55.47:427][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.55.47:427][779]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks.planks'
+[2015.04.30-19.55.47:427][779]LogStreaming:Warning: Failed to read file 'C:\Users\Home\Desktop\Store\Plank_Fence_Geo_Piskas\Textures\JPG\planks.jpg' error.
+[2015.04.30-19.55.47:428][779]LogStreaming:Warning: Failed to read file '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/' error.
+[2015.04.30-19.55.47:428][779]LogStreaming:Warning: Failed to read file '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/' error.
+[2015.04.30-19.55.47:428][779]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\Home\Desktop\Store\Plank_Fence_Geo_Piskas\Textures\JPG\planks.jpg
+ - \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/
+ - \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/
+[2015.04.30-19.55.47:434][779]LogMaterial: Missing cached shader map for material plank_fence, compiling. 
+[2015.04.30-19.55.47:471][779]LogFbx:Warning: Triangulating static mesh plank_fence_a
+[2015.04.30-19.55.47:546][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_col_l
+[2015.04.30-19.55.47:615][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_col_r
+[2015.04.30-19.55.47:685][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_in
+[2015.04.30-19.55.47:867][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_in_nocol
+[2015.04.30-19.55.48:078][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_out
+[2015.04.30-19.55.48:283][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_out_nocol
+[2015.04.30-19.55.48:472][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_nocol
+[2015.04.30-19.55.48:572][779]LogFbx:Warning: Triangulating static mesh plank_fence_b
+[2015.04.30-19.55.48:694][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_col_l
+[2015.04.30-19.55.48:809][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_col_r
+[2015.04.30-19.55.48:918][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_in
+[2015.04.30-19.55.49:137][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_in_nocol
+[2015.04.30-19.55.49:344][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_out
+[2015.04.30-19.55.49:563][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_out_nocol
+[2015.04.30-19.55.49:741][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_nocol
+[2015.04.30-19.55.49:830][779]LogFbx:Warning: Triangulating static mesh plank_fence_c
+[2015.04.30-19.55.49:922][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_col_l
+[2015.04.30-19.55.50:011][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_col_r
+[2015.04.30-19.55.50:098][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_corner
+[2015.04.30-19.55.50:272][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_corner_nocol
+[2015.04.30-19.55.50:436][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_nocol
+[2015.04.30-19.55.50:521][779]LogFbx:Warning: Triangulating static mesh plank_fence_column
+[2015.04.30-19.55.50:535][779]LogFbx: == Initial material list:
+[2015.04.30-19.55.50:535][779]LogFbx: 0: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 1: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 2: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 3: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 4: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 5: plank_fence
+[2015.04.30-19.55.50:535][779]LogFbx: 6: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 7: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 8: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 9: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 10: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 11: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 12: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 13: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 14: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 15: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 16: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 17: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 18: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 19: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 20: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 21: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: 22: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 1 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 2 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 3 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 4 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 5 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 6 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 7 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 8 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 9 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 10 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 11 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 12 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 13 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 14 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 15 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 16 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 17 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 18 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 19 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 20 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 21 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   remap 22 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx: == After sorting:
+[2015.04.30-19.55.50:538][779]LogFbx: 0: plank_fence
+[2015.04.30-19.55.50:538][779]LogFbx: == Mapping table:
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 0 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 1 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 2 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 3 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 4 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 5 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 6 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 7 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 8 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 9 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 10 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 11 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 12 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 13 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 14 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 15 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 16 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 17 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 18 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 19 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 20 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 21 -> 0
+[2015.04.30-19.55.50:538][779]LogFbx:   sort 22 -> 0
+[2015.04.30-19.55.50:547][779]LogStaticMesh: Building static mesh plank_fence_without_proxy...
+[2015.04.30-19.55.51:181][779]LogStaticMesh: Built static mesh [635.164856ms] /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.plank_fence_without_proxy
+[2015.04.30-19.55.51:254][779]LogStaticMesh:Warning: plank_fence_without_proxy has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.30-19.56.05:009][779]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.mtl'. Unknown extension 'mtl'.
+[2015.04.30-19.56.05:050][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.uasset"'
+[2015.04.30-19.56.05:162][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.05:162][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.05:162][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.05:163][779]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.obj)
+[2015.04.30-19.56.05:268][779]LogFbx: Loading FBX Scene from \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.obj
+[2015.04.30-19.56.05:641][779]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.30-19.56.05:672][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy'
+[2015.04.30-19.56.05:673][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy'
+[2015.04.30-19.56.05:673][779]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy.proxy'
+[2015.04.30-19.56.05:714][779]LogMaterial: Missing cached shader map for material proxy, compiling. 
+[2015.04.30-19.56.05:745][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.56.05:806][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.56.05:806][779]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks.planks'
+[2015.04.30-19.56.05:929][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.56.05:930][779]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks'
+[2015.04.30-19.56.05:930][779]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks.planks'
+[2015.04.30-19.56.05:930][779]LogStreaming:Warning: Failed to read file 'C:\Users\Home\Desktop\Store\Plank_Fence_Geo_Piskas\Textures\JPG\planks.jpg' error.
+[2015.04.30-19.56.05:930][779]LogStreaming:Warning: Failed to read file '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/' error.
+[2015.04.30-19.56.05:930][779]LogStreaming:Warning: Failed to read file '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/' error.
+[2015.04.30-19.56.05:930][779]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\Home\Desktop\Store\Plank_Fence_Geo_Piskas\Textures\JPG\planks.jpg
+ - \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/
+ - \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/OBJ/
+[2015.04.30-19.56.05:952][779]LogMaterial: Missing cached shader map for material planks, compiling. 
+[2015.04.30-19.56.05:977][779]LogFbx:Warning: Triangulating static mesh plank_fence_a
+[2015.04.30-19.56.06:146][779]LogMaterial: Missing cached shader map for material proxy2, compiling. 
+[2015.04.30-19.56.06:170][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_col_l
+[2015.04.30-19.56.06:329][779]LogMaterial: Missing cached shader map for material proxy3, compiling. 
+[2015.04.30-19.56.06:354][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_col_r
+[2015.04.30-19.56.06:542][779]LogMaterial: Missing cached shader map for material proxy4, compiling. 
+[2015.04.30-19.56.06:566][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_in
+[2015.04.30-19.56.06:841][779]LogMaterial: Missing cached shader map for material proxy5, compiling. 
+[2015.04.30-19.56.06:865][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_in_nocol
+[2015.04.30-19.56.07:121][779]LogMaterial: Missing cached shader map for material proxy6, compiling. 
+[2015.04.30-19.56.07:145][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_out
+[2015.04.30-19.56.07:468][779]LogMaterial: Missing cached shader map for material proxy7, compiling. 
+[2015.04.30-19.56.07:494][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_corner_out_nocol
+[2015.04.30-19.56.07:791][779]LogMaterial: Missing cached shader map for material proxy8, compiling. 
+[2015.04.30-19.56.07:817][779]LogFbx:Warning: Triangulating static mesh plank_fence_a_nocol
+[2015.04.30-19.56.07:970][779]LogMaterial: Missing cached shader map for material proxy9, compiling. 
+[2015.04.30-19.56.07:995][779]LogFbx:Warning: Triangulating static mesh plank_fence_b
+[2015.04.30-19.56.08:175][779]LogMaterial: Missing cached shader map for material proxy10, compiling. 
+[2015.04.30-19.56.08:201][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_col_l
+[2015.04.30-19.56.08:377][779]LogMaterial: Missing cached shader map for material proxy11, compiling. 
+[2015.04.30-19.56.08:401][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_col_r
+[2015.04.30-19.56.08:567][779]LogMaterial: Missing cached shader map for material proxy12, compiling. 
+[2015.04.30-19.56.08:590][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_in
+[2015.04.30-19.56.08:882][779]LogMaterial: Missing cached shader map for material proxy13, compiling. 
+[2015.04.30-19.56.08:907][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_in_nocol
+[2015.04.30-19.56.09:275][779]LogMaterial: Missing cached shader map for material proxy14, compiling. 
+[2015.04.30-19.56.09:297][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_out
+[2015.04.30-19.56.09:558][779]LogMaterial: Missing cached shader map for material proxy15, compiling. 
+[2015.04.30-19.56.09:583][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_corner_out_nocol
+[2015.04.30-19.56.09:907][779]LogMaterial: Missing cached shader map for material proxy16, compiling. 
+[2015.04.30-19.56.09:931][779]LogFbx:Warning: Triangulating static mesh plank_fence_b_nocol
+[2015.04.30-19.56.10:085][779]LogMaterial: Missing cached shader map for material proxy17, compiling. 
+[2015.04.30-19.56.10:109][779]LogFbx:Warning: Triangulating static mesh plank_fence_c
+[2015.04.30-19.56.10:306][779]LogMaterial: Missing cached shader map for material proxy18, compiling. 
+[2015.04.30-19.56.10:330][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_col_l
+[2015.04.30-19.56.10:514][779]LogMaterial: Missing cached shader map for material proxy19, compiling. 
+[2015.04.30-19.56.10:538][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_col_r
+[2015.04.30-19.56.10:758][779]LogMaterial: Missing cached shader map for material proxy20, compiling. 
+[2015.04.30-19.56.10:781][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_corner
+[2015.04.30-19.56.11:086][779]LogMaterial: Missing cached shader map for material proxy21, compiling. 
+[2015.04.30-19.56.11:111][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_corner_nocol
+[2015.04.30-19.56.11:415][779]LogMaterial: Missing cached shader map for material proxy22, compiling. 
+[2015.04.30-19.56.11:440][779]LogFbx:Warning: Triangulating static mesh plank_fence_c_nocol
+[2015.04.30-19.56.11:671][779]LogMaterial: Missing cached shader map for material proxy23, compiling. 
+[2015.04.30-19.56.11:695][779]LogFbx:Warning: Triangulating static mesh plank_fence_column
+[2015.04.30-19.56.11:720][779]LogFbx: == Initial material list:
+[2015.04.30-19.56.11:720][779]LogFbx: 0: proxy
+[2015.04.30-19.56.11:720][779]LogFbx: 1: planks
+[2015.04.30-19.56.11:720][779]LogFbx: 2: proxy
+[2015.04.30-19.56.11:720][779]LogFbx: 3: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 4: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 5: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 6: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 7: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 8: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 9: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 10: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 11: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 12: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 13: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 14: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 15: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 16: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 17: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 18: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 19: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 20: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 21: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 22: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 23: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 24: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 25: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 26: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 27: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 28: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 29: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 30: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 31: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 32: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 33: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 34: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 35: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 36: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 37: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 38: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 39: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 40: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 41: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 42: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 43: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 44: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 45: planks
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 3 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 5 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 7 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 9 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 11 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 13 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 15 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 17 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 19 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 21 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 23 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 25 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 27 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 29 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 31 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 33 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 35 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 37 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 39 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 41 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 43 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx:   remap 45 -> 1
+[2015.04.30-19.56.11:724][779]LogFbx: == After sorting:
+[2015.04.30-19.56.11:724][779]LogFbx: 0: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 1: planks
+[2015.04.30-19.56.11:724][779]LogFbx: 2: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 3: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 4: proxy
+[2015.04.30-19.56.11:724][779]LogFbx: 5: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 6: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 7: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 8: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 9: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 10: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 11: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 12: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 13: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 14: proxy
+[2015.04.30-19.56.11:725][779]LogFbx: 15: proxy
+[2015.04.30-19.56.11:727][779]LogFbx: 16: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 17: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 18: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 19: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 20: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 21: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 22: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: 23: proxy
+[2015.04.30-19.56.11:728][779]LogFbx: == Mapping table:
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 0 -> 0
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 1 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 2 -> 2
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 3 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 4 -> 3
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 5 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 6 -> 4
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 7 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 8 -> 5
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 9 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 10 -> 6
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 11 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 12 -> 7
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 13 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 14 -> 8
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 15 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 16 -> 9
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 17 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 18 -> 10
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 19 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 20 -> 11
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 21 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 22 -> 12
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 23 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 24 -> 13
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 25 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 26 -> 14
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 27 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 28 -> 15
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 29 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 30 -> 16
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 31 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 32 -> 17
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 33 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 34 -> 18
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 35 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 36 -> 19
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 37 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 38 -> 20
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 39 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 40 -> 21
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 41 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 42 -> 22
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 43 -> 1
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 44 -> 23
+[2015.04.30-19.56.11:728][779]LogFbx:   sort 45 -> 1
+[2015.04.30-19.56.11:742][779]LogStaticMesh: Building static mesh plank_fence_with_proxy...
+[2015.04.30-19.56.13:171][779]LogStaticMesh: Built static mesh [1429.425781ms] /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.plank_fence_with_proxy
+[2015.04.30-19.56.13:278][779]LogStaticMesh:Warning: plank_fence_with_proxy has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.30-19.56.15:288][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/DDS/planks.uasset"'
+[2015.04.30-19.56.15:403][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.15:403][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.15:403][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.15:404][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/DDS/planks.dds)
+[2015.04.30-19.56.17:654][779]Error: Texture import failed
+[2015.04.30-19.56.32:814][779]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/DDS/planks.dds'. Failed to create asset '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/DDS/planks'
+[2015.04.30-19.56.32:861][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/DDS/planks_NRM.uasset"'
+[2015.04.30-19.56.32:984][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.32:984][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.32:984][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.32:985][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/DDS/planks_NRM.dds)
+[2015.04.30-19.56.33:045][779]Error: Texture import failed
+[2015.04.30-19.56.33:631][779]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/DDS/planks_NRM.dds'. Failed to create asset '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/DDS/planks_NRM'
+[2015.04.30-19.56.33:673][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks.uasset"'
+[2015.04.30-19.56.33:791][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.33:791][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.33:791][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.33:792][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/JPG/planks.jpg)
+[2015.04.30-19.56.33:912][779]0.000040 seconds to analyze Texture2D /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks.planks
+
+[2015.04.30-19.56.33:917][779]LogTexture:Display: Building textures: planks (AutoDXT)
+[2015.04.30-19.56.36:429][779]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks_NRM.uasset"'
+[2015.04.30-19.56.36:649][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.36:649][779]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.36:649][779]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.36:650][779]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\Plank_Fence_Geo_Piskas/Textures/JPG/planks_NRM.jpg)
+[2015.04.30-19.56.36:792][779]0.000040 seconds to analyze Texture2D /Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks_NRM.planks_NRM
+
+[2015.04.30-19.56.36:841][779]LogTexture:Display: Building textures: planks_NRM (BC5)
+[2015.04.30-19.56.37:203][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.30-19.56.37:203][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.37:205][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.37:206][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.37:207][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.37:208][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.37:208][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ'
+[2015.04.30-19.56.38:322][827]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__11_Normal_Bump.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/Map__8_Normal_Bump.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_with_proxy.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/plank_fence_without_proxy.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/planks.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy10.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy11.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy12.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy13.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy14.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy15.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy16.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy17.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy18.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy19.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy2.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy20.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy21.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy22.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy23.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy3.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy4.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy5.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy6.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy7.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy8.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/OBJ/proxy9.uasset"'
+[2015.04.30-19.56.38:464][836]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.38:464][836]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.38:464][836]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/Plank_Fence_Geo_Piskas/Textures/JPG/planks_NRM.uasset"'
+[2015.04.30-19.56.38:588][839]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.56.38:588][839]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.56.38:588][839]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.38:588][839]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.56.57:849][538]LogActorFactory: Actor Factory created plank_fence_without_proxy
+[2015.04.30-19.56.58:875][635]LogActorFactory: Actor Factory created plank_fence_without_proxy
+[2015.04.30-19.57.10:796][861]Cmd: TRANSACTION UNDO
+[2015.04.30-19.57.10:796][861]LogEditorTransaction: Undo Set actor rotation
+[2015.04.30-19.57.13:184][ 85]Cmd: DELETE
+[2015.04.30-19.57.13:184][ 85]Cmd: ACTOR DELETE
+[2015.04.30-19.57.13:189][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.30-19.57.13:190][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-19.57.13:212][ 85]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.04.30-19.57.16:484][448]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas'
+[2015.04.30-19.57.16:976][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import'
+[2015.04.30-19.57.18:113][642]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/Plank_Fence_Geo_Piskas'
+[2015.04.30-19.59.47:655][413]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import'
+[2015.04.30-19.59.52:083][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset"'
+[2015.04.30-19.59.52:197][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.59.52:197][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.59.52:197][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.59.52:198][892]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(BLENDER).obj)
+[2015.04.30-19.59.53:698][892]LogFbx: Loading FBX Scene from \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(BLENDER).obj
+[2015.04.30-19.59.53:733][892]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.30-19.59.53:739][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.53:740][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.53:740][892]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/HorrorAssets/Import/fence/vinyl_fence.vinyl_fence'
+[2015.04.30-19.59.53:799][892]LogMaterial: Missing cached shader map for material vinyl_fence, compiling. 
+[2015.04.30-19.59.53:815][892]LogFbx:Warning: Triangulating static mesh vinyl_fence
+[2015.04.30-19.59.54:238][892]LogFbx: == Initial material list:
+[2015.04.30-19.59.54:238][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.54:238][892]LogFbx: == After sorting:
+[2015.04.30-19.59.54:238][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.54:238][892]LogFbx: == Mapping table:
+[2015.04.30-19.59.54:238][892]LogFbx:   sort 0 -> 0
+[2015.04.30-19.59.54:241][892]LogStaticMesh: Building static mesh vinyl_fence_BLENDER_...
+[2015.04.30-19.59.54:480][892]LogStaticMesh: Built static mesh [240.066360ms] /Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.vinyl_fence_BLENDER_
+[2015.04.30-19.59.54:558][892]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.30-19.59.54:639][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset"'
+[2015.04.30-19.59.54:756][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.59.54:756][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.59.54:756][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.59.54:756][892]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(DEFAULT).obj)
+[2015.04.30-19.59.54:798][892]LogFbx: Loading FBX Scene from \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(DEFAULT).obj
+[2015.04.30-19.59.54:857][892]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.30-19.59.54:862][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.54:862][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.54:862][892]LogFbx:Warning: Triangulating static mesh vinyl_fence
+[2015.04.30-19.59.55:350][892]LogFbx: == Initial material list:
+[2015.04.30-19.59.55:350][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.55:350][892]LogFbx: == After sorting:
+[2015.04.30-19.59.55:350][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.55:350][892]LogFbx: == Mapping table:
+[2015.04.30-19.59.55:350][892]LogFbx:   sort 0 -> 0
+[2015.04.30-19.59.55:352][892]LogStaticMesh: Building static mesh vinyl_fence_DEFAULT_...
+[2015.04.30-19.59.55:525][892]LogStaticMesh: Built static mesh [173.083252ms] /Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.vinyl_fence_DEFAULT_
+[2015.04.30-19.59.55:638][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset"'
+[2015.04.30-19.59.55:854][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.59.55:854][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.59.55:854][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.59.55:855][892]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(POSER).obj)
+[2015.04.30-19.59.55:880][892]LogFbx: Loading FBX Scene from \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence(POSER).obj
+[2015.04.30-19.59.55:924][892]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.30-19.59.55:929][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.55:929][892]LogLinker:Warning: Can't find file '/Game/HorrorAssets/Import/fence/vinyl_fence'
+[2015.04.30-19.59.55:929][892]LogFbx:Warning: Triangulating static mesh vinyl_fence
+[2015.04.30-19.59.56:343][892]LogFbx: == Initial material list:
+[2015.04.30-19.59.56:343][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.56:343][892]LogFbx: == After sorting:
+[2015.04.30-19.59.56:343][892]LogFbx: 0: vinyl_fence
+[2015.04.30-19.59.56:343][892]LogFbx: == Mapping table:
+[2015.04.30-19.59.56:343][892]LogFbx:   sort 0 -> 0
+[2015.04.30-19.59.56:345][892]LogStaticMesh: Building static mesh vinyl_fence_POSER_...
+[2015.04.30-19.59.56:661][892]LogStaticMesh: Built static mesh [315.940338ms] /Game/HorrorAssets/Import/fence/vinyl_fence_POSER_.vinyl_fence_POSER_
+[2015.04.30-19.59.56:700][892]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.30-19.59.56:750][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset"'
+[2015.04.30-19.59.56:863][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-19.59.56:863][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-19.59.56:863][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-19.59.56:864][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/wireframe01.jpg)
+[2015.04.30-20.00.10:812][892]0.000016 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/wireframe01.wireframe01
+
+[2015.04.30-20.00.10:815][892]LogTexture:Display: Building textures: wireframe01 (AutoDXT)
+[2015.04.30-20.00.10:956][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset"'
+[2015.04.30-20.00.11:167][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.11:167][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.11:167][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.11:168][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/wireframe02.jpg)
+[2015.04.30-20.00.11:178][892]0.000017 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/wireframe02.wireframe02
+
+[2015.04.30-20.00.11:181][892]LogTexture:Display: Building textures: wireframe02 (AutoDXT)
+[2015.04.30-20.00.11:312][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset"'
+[2015.04.30-20.00.11:430][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.11:430][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.11:430][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.11:431][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/wireframe03.jpg)
+[2015.04.30-20.00.11:444][892]0.000015 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/wireframe03.wireframe03
+
+[2015.04.30-20.00.11:447][892]LogTexture:Display: Building textures: wireframe03 (AutoDXT)
+[2015.04.30-20.00.11:597][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset"'
+[2015.04.30-20.00.11:711][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.11:711][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.11:711][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.11:712][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/wireframe04.jpg)
+[2015.04.30-20.00.11:722][892]0.000017 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/wireframe04.wireframe04
+
+[2015.04.30-20.00.11:725][892]LogTexture:Display: Building textures: wireframe04 (AutoDXT)
+[2015.04.30-20.00.11:863][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.00.12:078][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.12:078][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.12:078][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.12:079][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/maps/vinyl_fence_bump.jpg)
+[2015.04.30-20.00.12:204][892]0.000035 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump.vinyl_fence_bump
+
+[2015.04.30-20.00.12:214][892]LogTexture:Display: Building textures: vinyl_fence_bump (AutoDXT)
+[2015.04.30-20.00.14:637][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset"'
+[2015.04.30-20.00.14:752][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.14:752][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.14:752][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.14:753][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/preview01.jpg)
+[2015.04.30-20.00.14:770][892]0.000015 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/preview01.preview01
+
+[2015.04.30-20.00.14:773][892]LogTexture:Display: Building textures: preview01 (AutoDXT)
+[2015.04.30-20.00.15:011][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset"'
+[2015.04.30-20.00.15:128][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.15:128][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.15:128][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.15:129][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/preview02.jpg)
+[2015.04.30-20.00.15:149][892]0.000015 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/preview02.preview02
+
+[2015.04.30-20.00.15:152][892]LogTexture:Display: Building textures: preview02 (AutoDXT)
+[2015.04.30-20.00.15:394][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset"'
+[2015.04.30-20.00.15:512][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.15:512][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.15:512][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.15:513][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/preview03.jpg)
+[2015.04.30-20.00.15:531][892]0.000019 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/preview03.preview03
+
+[2015.04.30-20.00.15:534][892]LogTexture:Display: Building textures: preview03 (AutoDXT)
+[2015.04.30-20.00.15:786][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset"'
+[2015.04.30-20.00.15:900][892]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.15:900][892]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.15:900][892]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.15:901][892]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 \\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/preview04.jpg)
+[2015.04.30-20.00.15:927][892]0.000015 seconds to analyze Texture2D /Game/HorrorAssets/Import/fence/preview04.preview04
+
+[2015.04.30-20.00.15:930][892]LogTexture:Display: Building textures: preview04 (AutoDXT)
+[2015.04.30-20.00.16:240][892]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/README_FIRST.txt'. Unknown extension 'txt'.
+[2015.04.30-20.00.16:254][892]LogAssetTools:Warning: Failed to import '\\banner.main.ad.rit.edu\students\jth7036\IGMProfile\Desktop\fence/vinyl_fence.mtl'. Unknown extension 'mtl'.
+[2015.04.30-20.00.16:256][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.30-20.00.16:256][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:256][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:257][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:258][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:259][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:260][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:260][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:261][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:262][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:263][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:264][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.16:264][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.17:277][950]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset"'
+[2015.04.30-20.00.17:486][970]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.17:486][970]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.17:487][970]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.00.17:692][993]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.17:692][993]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.17:692][993]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.17:692][993]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.21:220][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import/fence'
+[2015.04.30-20.00.22:234][488]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset"'
+[2015.04.30-20.00.22:440][512]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.00.22:440][512]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.00.22:440][512]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.00.32:495][640]LogActorFactory: Actor Factory created vinyl_fence_DEFAULT_
+[2015.04.30-20.00.32:927][685]LogActorFactory: Actor Factory created vinyl_fence_DEFAULT_
+[2015.04.30-20.00.34:130][820]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.30-20.01.02:994][804]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.30-20.01.02:994][804]PIE: New page: PIE session: House (Apr 30, 2015, 12:01:02 PM)
+[2015.04.30-20.01.03:061][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066348s)
+[2015.04.30-20.01.03:061][804]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2015.04.30-20.01.03:062][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorAssets/Maps/House.House to /Game/HorrorAssets/Maps/UEDPIE_0_House.House (0.067335s)
+[2015.04.30-20.01.03:112][804]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.30-20.01.03:114][804]LogAIModule: Creating AISystem for world House
+[2015.04.30-20.01.03:225][804]LogWorld: Bringing World /Game/HorrorAssets/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.04.30-16.01.03
+[2015.04.30-20.01.03:230][804]LogWorld: Bringing up level for play took: 0.115221
+[2015.04.30-20.01.03:235][804]PIE: Info Play in editor start time for /Game/HorrorAssets/Maps/UEDPIE_0_House -0.562
+[2015.04.30-20.01.10:624][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001364A1DB20
+[2015.04.30-20.01.58:051][323]Cmd: TRANSACTION UNDO
+[2015.04.30-20.01.58:059][323]LogEditorTransaction: Undo Move Actors
+[2015.04.30-20.02.40:573][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_10)
+[2015.04.30-20.03.13:994][509]LogEditorViewport: Clicking Background
+[2015.04.30-20.03.14:804][603]LogEditorViewport: Clicking on Actor (LMB): Brush (Street)
+[2015.04.30-20.04.43:116][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Maps/House" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Maps/House_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.30-20.06.44:135][226]LogSavePackage: Save=113655.054688ms
+[2015.04.30-20.06.44:135][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/House_Auto1A79C213F49449DF48838C582B6F751FA.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Maps/House_Auto1.umap'
+[2015.04.30-20.06.48:549][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HorrorAssets/Maps/House' took 125.524
+[2015.04.30-20.06.48:549][226]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 125.524
+[2015.04.30-20.06.48:621][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER_] ([1] browsable assets)...
+[2015.04.30-20.06.48:659][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.vinyl_fence_BLENDER_]
+[2015.04.30-20.06.48:659][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER_]
+[2015.04.30-20.06.49:143][226]LogSavePackage: Save=450.458130ms
+[2015.04.30-20.06.49:144][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_BLENDER__Auto1199A87F042C2664070CEADAAC403B3EA.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER__Auto1.uasset'
+[2015.04.30-20.06.49:199][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/vinyl_fence] ([1] browsable assets)...
+[2015.04.30-20.06.49:241][226]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HorrorAssets/Import/fence/vinyl_fence.vinyl_fence]
+[2015.04.30-20.06.49:241][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/vinyl_fence]
+[2015.04.30-20.06.49:242][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.06.49:805][226]LogSavePackage: Save=529.944275ms
+[2015.04.30-20.06.49:805][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_Auto1DF2898CB4F5E278BF5046D9C0C3EFE31.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_Auto1.uasset'
+[2015.04.30-20.06.49:906][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_] ([1] browsable assets)...
+[2015.04.30-20.06.49:933][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.vinyl_fence_DEFAULT_]
+[2015.04.30-20.06.49:934][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_]
+[2015.04.30-20.06.50:468][226]LogSavePackage: Save=499.921204ms
+[2015.04.30-20.06.50:468][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_DEFAULT__Auto19C3C06334FBEC9AFD5BB6EB8A8B1F9A7.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT__Auto1.uasset'
+[2015.04.30-20.06.50:525][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/vinyl_fence_POSER_] ([1] browsable assets)...
+[2015.04.30-20.06.50:557][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/HorrorAssets/Import/fence/vinyl_fence_POSER_.vinyl_fence_POSER_]
+[2015.04.30-20.06.50:557][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/vinyl_fence_POSER_]
+[2015.04.30-20.06.51:062][226]LogSavePackage: Save=466.212036ms
+[2015.04.30-20.06.51:062][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_POSER__Auto1B511A7D7436134BD997F90B944222697.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_POSER__Auto1.uasset'
+[2015.04.30-20.06.51:118][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/wireframe01] ([1] browsable assets)...
+[2015.04.30-20.06.51:143][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/wireframe01.wireframe01]
+[2015.04.30-20.06.51:143][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/wireframe01]
+[2015.04.30-20.06.51:145][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe01" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe01_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.06.51:565][226]LogSavePackage: Save=384.291351ms
+[2015.04.30-20.06.51:566][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe01_Auto1B45360084B37923E5BEFB9BB3F71A9CC.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe01_Auto1.uasset'
+[2015.04.30-20.06.51:620][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/wireframe02] ([1] browsable assets)...
+[2015.04.30-20.06.51:640][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/wireframe02.wireframe02]
+[2015.04.30-20.06.51:640][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/wireframe02]
+[2015.04.30-20.06.51:642][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe02" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe02_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.06.52:027][226]LogSavePackage: Save=352.385284ms
+[2015.04.30-20.06.52:028][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe02_Auto1EDD23769458A3B42729235BD97CAD2DA.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe02_Auto1.uasset'
+[2015.04.30-20.06.52:083][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/wireframe03] ([1] browsable assets)...
+[2015.04.30-20.06.52:106][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/wireframe03.wireframe03]
+[2015.04.30-20.06.52:107][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/wireframe03]
+[2015.04.30-20.06.52:108][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe03" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe03_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.06.52:517][226]LogSavePackage: Save=375.868988ms
+[2015.04.30-20.06.52:518][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe03_Auto1250E0A644C51E77ABB4C71B0DDCCB3A2.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe03_Auto1.uasset'
+[2015.04.30-20.06.52:576][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/wireframe04] ([1] browsable assets)...
+[2015.04.30-20.06.52:609][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/wireframe04.wireframe04]
+[2015.04.30-20.06.52:609][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/wireframe04]
+[2015.04.30-20.06.52:610][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe04" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe04_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.06.52:979][226]LogSavePackage: Save=333.648132ms
+[2015.04.30-20.06.52:980][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe04_Auto16B0E8DA44F10054FF1ED4C901F1909B8.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/wireframe04_Auto1.uasset'
+[2015.04.30-20.06.53:057][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump] ([1] browsable assets)...
+[2015.04.30-20.06.53:075][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump.vinyl_fence_bump]
+[2015.04.30-20.06.53:075][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump]
+[2015.04.30-20.07.06:306][226]LogSavePackage: Save=13194.375977ms
+[2015.04.30-20.07.06:307][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_bump_Auto11BCF37B1431724D5D47573BA271FB199.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump_Auto1.uasset'
+[2015.04.30-20.07.06:364][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/preview01] ([1] browsable assets)...
+[2015.04.30-20.07.06:383][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/preview01.preview01]
+[2015.04.30-20.07.06:383][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/preview01]
+[2015.04.30-20.07.06:385][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview01" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview01_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.07.07:387][226]LogSavePackage: Save=968.971985ms
+[2015.04.30-20.07.07:387][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview01_Auto1729019A2413621D51C2E1DBCE0AB2823.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview01_Auto1.uasset'
+[2015.04.30-20.07.07:441][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/preview02] ([1] browsable assets)...
+[2015.04.30-20.07.07:458][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/preview02.preview02]
+[2015.04.30-20.07.07:458][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/preview02]
+[2015.04.30-20.07.07:459][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview02" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview02_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.07.08:502][226]LogSavePackage: Save=1009.366760ms
+[2015.04.30-20.07.08:502][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview02_Auto12C0A60C24C28B618E45573B313DFCBD8.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview02_Auto1.uasset'
+[2015.04.30-20.07.08:552][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/preview03] ([1] browsable assets)...
+[2015.04.30-20.07.08:573][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/preview03.preview03]
+[2015.04.30-20.07.08:573][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/preview03]
+[2015.04.30-20.07.08:574][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview03" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview03_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.07.09:607][226]LogSavePackage: Save=998.224487ms
+[2015.04.30-20.07.09:608][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview03_Auto1B925F7BD4ED167DA06BB3D88B83FEF85.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview03_Auto1.uasset'
+[2015.04.30-20.07.09:660][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/preview04] ([1] browsable assets)...
+[2015.04.30-20.07.09:691][226]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HorrorAssets/Import/fence/preview04.preview04]
+[2015.04.30-20.07.09:691][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/preview04]
+[2015.04.30-20.07.09:694][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview04" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview04_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.07.10:542][226]LogSavePackage: Save=813.384033ms
+[2015.04.30-20.07.10:542][226]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview04_Auto1E815C5634566CA8BD390749B887AD6DD.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/preview04_Auto1.uasset'
+[2015.04.30-20.07.10:559][226]LogFileHelpers: Auto-saving content packages took 22.009
+[2015.04.30-20.07.13:618][237]LogEditorViewport: Clicking Background
+[2015.04.30-20.07.24:017][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_12)
+[2015.04.30-20.08.00:885][622]LogEditorViewport: Clicking Background
+[2015.04.30-20.08.02:029][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_2)
+[2015.04.30-20.08.04:773][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_)
+[2015.04.30-20.08.05:636][148]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (vinyl_fence_DEFAULT_2)
+[2015.04.30-20.08.06:391][234]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (vinyl_fence_DEFAULT_3)
+[2015.04.30-20.08.25:374][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_15)
+[2015.04.30-20.08.31:151][990]Cmd: DELETE
+[2015.04.30-20.08.31:153][990]Cmd: ACTOR DELETE
+[2015.04.30-20.08.31:159][990]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.30-20.08.31:189][990]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2015.04.30-20.08.44:224][469]LogEditorViewport: Clicking Background
+[2015.04.30-20.08.45:101][573]Cmd: TRANSACTION UNDO
+[2015.04.30-20.08.45:101][573]LogEditorTransaction: Undo Clicking Background
+[2015.04.30-20.09.01:781][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_42)
+[2015.04.30-20.09.31:830][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_44)
+[2015.04.30-20.10.05:517][753]LogEditorViewport: Clicking Background
+[2015.04.30-20.10.30:008][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_9)
+[2015.04.30-20.10.34:647][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_10)
+[2015.04.30-20.10.46:336][287]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.30-20.11.15:416][690]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.30-20.11.15:416][690]PIE: New page: PIE session: House (Apr 30, 2015, 12:11:15 PM)
+[2015.04.30-20.11.15:489][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071971s)
+[2015.04.30-20.11.15:489][690]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2015.04.30-20.11.15:489][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorAssets/Maps/House.House to /Game/HorrorAssets/Maps/UEDPIE_0_House.House (0.072861s)
+[2015.04.30-20.11.15:521][690]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.30-20.11.15:523][690]LogAIModule: Creating AISystem for world House
+[2015.04.30-20.11.15:647][690]LogWorld: Bringing World /Game/HorrorAssets/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.04.30-16.11.15
+[2015.04.30-20.11.15:652][690]LogWorld: Bringing up level for play took: 0.128753
+[2015.04.30-20.11.15:656][690]PIE: Info Play in editor start time for /Game/HorrorAssets/Maps/UEDPIE_0_House -0.176
+[2015.04.30-20.11.32:935][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000135279BC40
+[2015.04.30-20.11.52:331][416]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.30-20.11.55:093][712]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.30-20.11.56:389][848]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.30-20.12.04:272][608]LogEditorViewport: Clicking on Actor (CTRL LMB): CopLight_C (Cop_Far_Coplight)
+[2015.04.30-20.14.45:581][332]MapCheck: New page: Map Check
+[2015.04.30-20.14.45:613][332]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.30-20.14.45:628][332]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.30-20.14.47:105][332]LightingResults: New page: Lighting Build - Apr 30, 2015, 12:14:47 PM
+[2015.04.30-20.14.50:551][332]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.30-20.14.50:551][332]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.30-20.14.50:551][332]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.30-20.14.50:551][332]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.30-20.14.50:551][332]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.30-20.14.50:920][332]LogEditorBuildUtils: Build time 0:00:05
+[2015.04.30-20.14.50:940][332]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer vinyl_fence, compiling. 
+[2015.04.30-20.14.50:943][332]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer vinyl_fence, compiling. 
+[2015.04.30-20.16.27:564][164]Job is a success!
+[2015.04.30-20.16.28:293][165]LogMaterial:Warning: Material /Game/HorrorAssets/Import/fence/vinyl_fence.vinyl_fence needed to have new flag set bUsedWithStaticLighting !
+[2015.04.30-20.16.28:295][165]LogMaterial: Missing cached shader map for material vinyl_fence, compiling. 
+[2015.04.30-20.16.28:312][165]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.30-20.16.28:973][165]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.30-20.16.30:090][165]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.04.30-20.16.30:093][165]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.04.30-20.16.30:098][165]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.04.30-20.16.30:134][165]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.04.30-20.16.30:206][165]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.04.30-20.16.30:451][165]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.04.30-20.16.30:907][165]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.04.30-20.16.30:947][165]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.04.30-20.16.31:075][165]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.04.30-20.16.31:101][165]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.04.30-20.16.31:164][165]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.04.30-20.16.31:327][165]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.04.30-20.16.31:563][165]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.30-20.16.31:966][165]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.30-20.16.32:688][165]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.04.30-20.16.33:184][165]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.30-20.16.34:043][165]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.30-20.16.34:088][165]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.30-20.16.34:167][165]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.30-20.16.34:840][165]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.30-20.16.35:081][165]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.04.30-20.16.35:134][165]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.04.30-20.16.35:148][165]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.04.30-20.16.35:182][165]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.04.30-20.16.35:190][165]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.30-20.16.35:256][165]Lightmass on OH1380-11: 1:42 min total, 1.99 sec importing, 383 ms setup, 6.97 sec photons, 1:33 min processing, 0 ms extra exporting [1201/1201 mappings]. Threads: 6:12 min total, 4:13 min processing.
+[2015.04.30-20.16.35:547][165]LogStaticLightingSystem: Illumination: 1:48 min (6.71 sec encoding lightmaps)
+[2015.04.30-20.16.35:547][165]LogStaticLightingSystem: Lightmap texture memory:  6.5 MB (3.8 MB streaming, 2.7 MB non-streaming), 20 textures
+[2015.04.30-20.16.35:547][165]LogStaticLightingSystem: Shadowmap texture memory: 14.8 MB (4.2 MB streaming, 10.7 MB non-streaming), 6 textures
+[2015.04.30-20.16.35:656][166]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.30-20.16.35:656][166]MapCheck: New page: House - Apr 30, 2015, 12:16:35 PM
+[2015.04.30-20.16.35:659][166]MapCheck:Warning: Warning F1_LR_CrimeScene_66 'Sphere' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.30-20.16.35:660][166]MapCheck:Warning: Warning SB_CrimeScene_127 'Sphere' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.30-20.16.35:827][166]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 170.846ms to complete.
+[2015.04.30-20.17.36:527][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Maps/House" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Maps/House_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.30-20.19.49:905][559]LogSavePackage: Save=123608.390625ms
+[2015.04.30-20.19.49:906][559]LogSavePackage: Moving 'J:/HorrorBase/Saved/House_Auto224E1EB5B49DD115826BE30AB2BE6D827.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Maps/House_Auto2.umap'
+[2015.04.30-20.19.54:304][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HorrorAssets/Maps/House' took 137.867
+[2015.04.30-20.19.54:304][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 137.867
+[2015.04.30-20.19.54:345][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HorrorAssets/Import/fence/vinyl_fence] ([1] browsable assets)...
+[2015.04.30-20.19.54:394][559]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HorrorAssets/Import/fence/vinyl_fence.vinyl_fence]
+[2015.04.30-20.19.54:394][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorAssets/Import/fence/vinyl_fence]
+[2015.04.30-20.19.54:396][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence" FILE="J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.30-20.19.54:954][559]LogSavePackage: Save=523.781494ms
+[2015.04.30-20.19.54:955][559]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_Auto2F2B9D61F44442CF68632B4B94ACF4EFA.tmp' to 'J:/HorrorBase/Saved/Autosaves/Game/HorrorAssets/Import/fence/vinyl_fence_Auto2.uasset'
+[2015.04.30-20.19.55:020][559]LogFileHelpers: Auto-saving content packages took 0.715
+[2015.04.30-20.22.28:627][790]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.30-20.22.28:627][790]PIE: New page: PIE session: House (Apr 30, 2015, 12:22:28 PM)
+[2015.04.30-20.22.28:729][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100798s)
+[2015.04.30-20.22.28:729][790]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2015.04.30-20.22.28:730][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorAssets/Maps/House.House to /Game/HorrorAssets/Maps/UEDPIE_0_House.House (0.101893s)
+[2015.04.30-20.22.28:762][790]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.30-20.22.28:766][790]LogAIModule: Creating AISystem for world House
+[2015.04.30-20.22.28:890][790]LogWorld: Bringing World /Game/HorrorAssets/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.04.30-16.22.28
+[2015.04.30-20.22.28:894][790]LogWorld: Bringing up level for play took: 0.127963
+[2015.04.30-20.22.28:899][790]PIE: Info Play in editor start time for /Game/HorrorAssets/Maps/UEDPIE_0_House 1.045
+[2015.04.30-20.31.20:298][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000135279BC40
+[2015.04.30-20.31.35:675][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (vinyl_fence_DEFAULT_)
+[2015.04.30-20.32.36:213][ 63]Cmd: TRANSACTION UNDO
+[2015.04.30-20.32.36:213][ 63]LogEditorTransaction: Undo Move Actors
+[2015.04.30-20.32.41:589][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Fireplace_Pit.BrushComponent0) Component already registered.
+[2015.04.30-20.32.41:624][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Sm8.BrushComponent0) Component already registered.
+[2015.04.30-20.32.44:476][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Pillar_Right.BrushComponent0) Component already registered.
+[2015.04.30-20.32.44:569][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2015.04.30-20.32.44:620][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Garage_In2.BrushComponent0) Component already registered.
+[2015.04.30-20.32.44:666][ 63]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Bathroom_Furniture.BrushComponent0) Component already registered.
+[2015.04.30-20.32.45:107][ 63]LogEditorViewport: Clicking on Actor (LMB): CopLight_C (Cop_Driveway_CopLight)
+[2015.04.30-20.32.51:688][793]Cmd: TRANSACTION UNDO
+[2015.04.30-20.32.51:688][793]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.30-20.32.52:550][854]Cmd: TRANSACTION UNDO
+[2015.04.30-20.32.52:550][854]LogEditorTransaction: Undo Move Actors
+[2015.04.30-20.32.58:424][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Fireplace_Pit.BrushComponent0) Component already registered.
+[2015.04.30-20.32.58:460][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Sm8.BrushComponent0) Component already registered.
+[2015.04.30-20.33.00:825][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Pillar_Right.BrushComponent0) Component already registered.
+[2015.04.30-20.33.00:918][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2015.04.30-20.33.00:968][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Garage_In2.BrushComponent0) Component already registered.
+[2015.04.30-20.33.01:006][854]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Bathroom_Furniture.BrushComponent0) Component already registered.
+[2015.04.30-20.33.07:161][486]LogGeometryMode:Warning: Unable to find Driveway Brush(s) in new BSP
+[2015.04.30-20.33.07:161][486]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.04.30-20.33.19:900][827]LogGeometryMode:Warning: Unable to find Grass_7 Brush(s) in new BSP
+[2015.04.30-20.33.19:900][827]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.04.30-20.33.25:309][353]Cmd: TRANSACTION UNDO
+[2015.04.30-20.33.25:309][353]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.30-20.33.31:001][825]Cmd: TRANSACTION UNDO
+[2015.04.30-20.33.31:001][825]LogEditorTransaction: Undo Move Actors
+[2015.04.30-20.33.35:798][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Lg.BrushComponent0) Component already registered.
+[2015.04.30-20.33.35:815][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Sm8.BrushComponent0) Component already registered.
+[2015.04.30-20.33.35:824][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Shell_Outside.BrushComponent0) Component already registered.
+[2015.04.30-20.33.35:855][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Victim_Car_2.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:166][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Wall_7.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:280][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:315][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_LR_Furniture_69.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:320][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Garage_Out2.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:349][825]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Wall5.BrushComponent0) Component already registered.
+[2015.04.30-20.33.38:779][825]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.04.30-20.33.38:779][825]LogGeometryMode:Warning: Unable to resolve Cop_Driveway Brush in new BSP, see above
+[2015.04.30-20.33.38:779][825]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.04.30-20.33.41:101][ 78]Cmd: TRANSACTION UNDO
+[2015.04.30-20.33.41:101][ 78]LogEditorTransaction: Undo Move Actors
+[2015.04.30-20.33.46:137][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Lg.BrushComponent0) Component already registered.
+[2015.04.30-20.33.46:153][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_Living_Window_Sm8.BrushComponent0) Component already registered.
+[2015.04.30-20.33.46:162][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Shell_Outside.BrushComponent0) Component already registered.
+[2015.04.30-20.33.46:193][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Victim_Car_2.BrushComponent0) Component already registered.
+[2015.04.30-20.33.48:459][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Wall_7.BrushComponent0) Component already registered.
+[2015.04.30-20.33.48:571][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2015.04.30-20.33.48:606][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F1_LR_Furniture_69.BrushComponent0) Component already registered.
+[2015.04.30-20.33.48:611][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.Garage_Out2.BrushComponent0) Component already registered.
+[2015.04.30-20.33.48:632][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/HorrorAssets/Maps/House.House:PersistentLevel.F2_Wall5.BrushComponent0) Component already registered.
+[2015.04.30-20.33.49:072][ 78]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.04.30-20.33.49:072][ 78]LogGeometryMode:Warning: Unable to resolve Cop_Driveway Brush in new BSP, see above
+[2015.04.30-20.33.49:073][ 78]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.04.30-20.33.51:286][310]LogGeometryMode:Warning: Unable to find Driveway Brush(s) in new BSP
+[2015.04.30-20.33.51:286][310]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.04.30-20.33.52:904][486]LogEditorViewport: Clicking on Actor (LMB): SpotLight (Cop_Driveway_Headlight_1)
+[2015.04.30-20.34.22:606][183]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorAssets/Import'
+[2015.04.30-20.36.11:768][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Maps/House.umap"'
+[2015.04.30-20.36.11:880][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.36.11:880][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.36.11:880][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset"'
+[2015.04.30-20.36.12:097][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.36.12:097][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.36.12:097][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.36.12:207][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.36.12:207][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.36.12:207][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.36.12:207][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.36.12:207][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.36.12:430][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Maps/House" FILE="J:/HorrorBase/Content/HorrorAssets/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.30-20.38.22:946][753]LogSavePackage: Save=123156.820313ms
+[2015.04.30-20.38.22:946][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/House9F0A9B3945683FB1D8D63195DA30B6FA.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Maps/House.umap'
+[2015.04.30-20.38.29:627][753]LogFileHelpers: Saving map 'House' took 137.333
+[2015.04.30-20.38.29:659][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence_BLENDER_" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset" SILENT=true
+[2015.04.30-20.38.30:064][753]LogSavePackage: Save=371.595215ms
+[2015.04.30-20.38.30:064][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_BLENDER_437F0F6D4BCAB62F1155EA891CBA4635.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset'
+[2015.04.30-20.38.30:145][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset"'
+[2015.04.30-20.38.30:261][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.30:261][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.30:261][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset"'
+[2015.04.30-20.38.30:371][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.30:371][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.30:371][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.30:371][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.30:402][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset" SILENT=true
+[2015.04.30-20.38.30:878][753]LogSavePackage: Save=439.954193ms
+[2015.04.30-20.38.30:878][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fenceB42544954D71832F8E62C5ABF84E71F3.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset'
+[2015.04.30-20.38.30:955][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset"'
+[2015.04.30-20.38.31:074][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.31:074][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.31:074][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset"'
+[2015.04.30-20.38.31:184][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.31:184][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.31:184][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.31:184][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.31:216][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset" SILENT=true
+[2015.04.30-20.38.31:636][753]LogSavePackage: Save=386.894867ms
+[2015.04.30-20.38.31:637][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_DEFAULT_D73131284621F2561424C8A7898912DD.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset'
+[2015.04.30-20.38.31:720][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset"'
+[2015.04.30-20.38.31:838][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.31:838][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.31:838][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset"'
+[2015.04.30-20.38.31:948][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.31:948][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.31:948][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.31:948][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.31:980][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/vinyl_fence_POSER_" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset" SILENT=true
+[2015.04.30-20.38.32:343][753]LogSavePackage: Save=330.203491ms
+[2015.04.30-20.38.32:343][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_POSER_C8825EB84F6797C94656F7B0CDE4065C.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset'
+[2015.04.30-20.38.32:418][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset"'
+[2015.04.30-20.38.32:538][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.32:538][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.32:538][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset"'
+[2015.04.30-20.38.32:639][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.32:639][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.32:639][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.32:639][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.32:667][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe01" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset" SILENT=true
+[2015.04.30-20.38.32:788][753]LogSavePackage: Save=88.831253ms
+[2015.04.30-20.38.32:788][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe018E69503C417C61432F13A49173322FA9.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset'
+[2015.04.30-20.38.32:864][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset"'
+[2015.04.30-20.38.32:978][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.32:978][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.32:978][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset"'
+[2015.04.30-20.38.33:087][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.33:087][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.33:087][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.33:087][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.33:102][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe02" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset" SILENT=true
+[2015.04.30-20.38.33:242][753]LogSavePackage: Save=107.049599ms
+[2015.04.30-20.38.33:242][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe02EADEC4874C870149B48AF8B22A88ED0D.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset'
+[2015.04.30-20.38.33:319][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset"'
+[2015.04.30-20.38.33:438][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.33:438][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.33:438][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset"'
+[2015.04.30-20.38.33:647][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.33:647][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.33:647][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.33:647][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.33:661][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe03" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset" SILENT=true
+[2015.04.30-20.38.33:802][753]LogSavePackage: Save=102.803139ms
+[2015.04.30-20.38.33:802][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe0323BA7E5145C4D69188A6BE9886471B7F.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset'
+[2015.04.30-20.38.33:884][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset"'
+[2015.04.30-20.38.33:996][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.33:996][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.33:996][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset"'
+[2015.04.30-20.38.34:106][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.34:106][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.34:106][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.34:106][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.34:120][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/wireframe04" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset" SILENT=true
+[2015.04.30-20.38.34:240][753]LogSavePackage: Save=86.286331ms
+[2015.04.30-20.38.34:240][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/wireframe04B8DF0C11425E58B011F2D0A69D6FC9A5.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset'
+[2015.04.30-20.38.34:315][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset"'
+[2015.04.30-20.38.34:428][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.34:428][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.34:428][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset"'
+[2015.04.30-20.38.34:538][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.34:538][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.34:538][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.34:538][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.34:554][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/maps/vinyl_fence_bump" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset" SILENT=true
+[2015.04.30-20.38.35:061][753]LogSavePackage: Save=472.939148ms
+[2015.04.30-20.38.35:061][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/vinyl_fence_bump61EA60D74F63BF77BCE01DA9A6A93BB7.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset'
+[2015.04.30-20.38.35:140][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.38.35:257][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.35:257][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.35:257][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.38.35:368][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.35:368][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.35:368][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.35:368][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.35:385][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview01" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset" SILENT=true
+[2015.04.30-20.38.35:576][753]LogSavePackage: Save=157.483780ms
+[2015.04.30-20.38.35:576][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview019EF703F14189060C59D88B881AF4F41A.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset'
+[2015.04.30-20.38.35:655][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset"'
+[2015.04.30-20.38.35:774][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.35:774][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.35:774][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset"'
+[2015.04.30-20.38.35:884][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.35:884][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.35:884][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.35:884][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.35:898][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview02" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset" SILENT=true
+[2015.04.30-20.38.36:084][753]LogSavePackage: Save=151.805145ms
+[2015.04.30-20.38.36:084][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview026E11A4C54844004A1BCCB9AC208BDBB6.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset'
+[2015.04.30-20.38.36:169][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset"'
+[2015.04.30-20.38.36:279][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.36:279][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.36:279][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset"'
+[2015.04.30-20.38.36:389][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.36:389][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.36:389][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.36:389][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.36:404][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview03" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset" SILENT=true
+[2015.04.30-20.38.36:582][753]LogSavePackage: Save=140.329819ms
+[2015.04.30-20.38.36:582][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview03136601794D9F33F96A8253B63F161599.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset'
+[2015.04.30-20.38.36:675][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset"'
+[2015.04.30-20.38.36:791][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.36:791][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.36:791][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset"'
+[2015.04.30-20.38.36:902][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.36:902][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.36:902][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.36:902][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.36:916][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Import/fence/preview04" FILE="J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset" SILENT=true
+[2015.04.30-20.38.37:161][753]LogSavePackage: Save=211.106277ms
+[2015.04.30-20.38.37:161][753]LogSavePackage: Moving 'J:/HorrorBase/Saved/preview04C46E547642BE0FB96F9B4AA4172209B8.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset'
+[2015.04.30-20.38.37:238][753]LogSourceControl: RunCommandInternalRaw: 'git add "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset"'
+[2015.04.30-20.38.37:357][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.37:357][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.37:357][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset"'
+[2015.04.30-20.38.37:467][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.37:467][753]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.37:467][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.37:467][753]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.37:495][754]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Maps/House.umap"'
+[2015.04.30-20.38.37:607][765]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.37:607][765]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.37:607][765]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_BLENDER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_DEFAULT_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/vinyl_fence_POSER_.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/wireframe04.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview01.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview02.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview03.uasset" "J:/HorrorBase/Content/HorrorAssets/Import/fence/preview04.uasset"'
+[2015.04.30-20.38.37:819][790]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.37:819][790]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.37:819][790]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Import/fence/maps/vinyl_fence_bump.uasset"'
+[2015.04.30-20.38.38:025][815]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.38.38:025][815]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.38.38:028][815]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.38:028][815]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.38.38:028][815]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.39.05:321][ 73]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.30-20.39.05:322][ 73]PIE: New page: PIE session: House (Apr 30, 2015, 12:39:05 PM)
+[2015.04.30-20.39.05:392][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070018s)
+[2015.04.30-20.39.05:393][ 73]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2015.04.30-20.39.05:393][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorAssets/Maps/House.House to /Game/HorrorAssets/Maps/UEDPIE_0_House.House (0.070929s)
+[2015.04.30-20.39.05:429][ 73]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.30-20.39.05:466][ 73]LogAIModule: Creating AISystem for world House
+[2015.04.30-20.39.05:591][ 73]LogWorld: Bringing World /Game/HorrorAssets/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.04.30-16.39.05
+[2015.04.30-20.39.05:596][ 73]LogWorld: Bringing up level for play took: 0.129325
+[2015.04.30-20.39.05:600][ 73]PIE: Info Play in editor start time for /Game/HorrorAssets/Maps/UEDPIE_0_House -0.305
+[2015.04.30-20.39.23:562][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000130A2FB060
+[2015.04.30-20.41.31:703][635]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Maps/House.umap"'
+[2015.04.30-20.41.31:815][635]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.41.31:815][635]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.41.31:815][635]SourceControl:Error: Error fatal: Not a git repository (or any of the parent directories): .git
+[2015.04.30-20.41.32:056][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorAssets/Maps/House" FILE="J:/HorrorBase/Content/HorrorAssets/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.30-20.43.42:992][635]LogSavePackage: Save=121265.179688ms
+[2015.04.30-20.43.42:992][635]LogSavePackage: Moving 'J:/HorrorBase/Saved/House1EFE357D4E65489E2525ACAB7905B7D2.tmp' to 'J:/HorrorBase/Content/HorrorAssets/Maps/House.umap'
+[2015.04.30-20.43.49:711][635]LogFileHelpers: Saving map 'House' took 137.807
+[2015.04.30-20.43.50:285][636]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "J:/HorrorBase/Content/HorrorAssets/Maps/House.umap"'
+[2015.04.30-20.43.50:285][636]Cmd: QUIT_EDITOR
+[2015.04.30-20.43.50:554][636]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.04.30-20.43.50:554][636]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Not a git repository (or any of the parent directories): .git
+'
+[2015.04.30-20.43.50:554][636]LogExit: Preparing to exit.
+[2015.04.30-20.43.50:965][636]LogExit: Editor shut down
+[2015.04.30-20.43.50:965][636]LogExit: Transaction tracking system shut down
+[2015.04.30-20.43.50:967][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001358F762A0
+[2015.04.30-20.43.50:968][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001364C2AE80
+[2015.04.30-20.43.51:019][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001366519580
+[2015.04.30-20.43.51:019][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001366518F40
+[2015.04.30-20.43.51:019][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001369659260
+[2015.04.30-20.43.51:019][636]LogExit: Object subsystem successfully closed.
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.30-20.43.51:083][636]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.30-20.43.51:084][636]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.30-20.43.51:088][636]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.30-20.43.51:088][636]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.30-20.43.51:088][636]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.30-20.43.51:088][636]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.30-20.43.51:857][636]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.30-20.43.58:665][636]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.30-20.43.58:665][636]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.30-20.43.58:665][636]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.30-20.43.58:666][636]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.30-20.43.58:667][636]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.30-20.43.58:667][636]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.30-20.43.58:667][636]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.30-20.43.58:667][636]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.30-20.43.58:667][636]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.30-20.43.58:678][636]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.30-20.43.58:679][636]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.30-20.43.58:680][636]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.30-20.43.58:680][636]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.30-20.43.58:680][636]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.30-20.43.58:782][636]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.30-20.43.58:782][636]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.30-20.43.58:785][636]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.30-20.43.58:785][636]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.30-20.43.58:785][636]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.30-20.43.58:785][636]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.30-20.43.58:785][636]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.30-20.43.58:788][636]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.30-20.43.58:788][636]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.30-20.43.58:788][636]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.30-20.43.58:789][636]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.30-20.43.58:793][636]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.30-20.43.58:815][636]LogDerivedDataCache: Shutdown
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.30-20.43.58:815][636]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.30-20.43.58:819][636]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.30-20.43.58:819][636]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.30-20.43.58:820][636]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.30-20.43.58:825][636]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.30-20.43.58:826][636]LogExit: Exiting.
+[2015.04.30-20.44.01:064][636]Log file closed, 04/30/15 16:44:01
