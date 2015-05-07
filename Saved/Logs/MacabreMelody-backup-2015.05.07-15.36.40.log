@@ -1,0 +1,110 @@
+﻿Log file open, 05/05/15 15:57:12
+LogInit:Display: Running engine for game: MacabreMelody
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.05-19.57.12:140][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.05-19.57.12:174][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.05-19.57.12:186][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.05-19.57.12:195][  0]LogInit: Object subsystem initialized
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Users/jth7036/MacabreMelody-ST/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Users/jth7036/MacabreMelody-ST/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.05-19.57.12:197][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Users/jth7036/MacabreMelody-ST/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-19.57.12:197][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.05-19.57.12:197][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.05-19.57.12:203][  0]LogInit: Computer: OH1380-11
+[2015.05.05-19.57.12:203][  0]LogInit: User: jth7036
+[2015.05.05-19.57.12:203][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.05-19.57.12:203][  0]LogInit: High frequency timer resolution =3.515626 MHz
+[2015.05.05-19.57.12:203][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.05.05-19.57.12:203][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-19.57.12:203][  0]LogMemory: Process Physical Memory: 45.81 MB used, 45.81 MB peak
+[2015.05.05-19.57.12:203][  0]LogMemory: Process Virtual Memory: 26.24 MB used, 26.24 MB peak
+[2015.05.05-19.57.12:203][  0]LogMemory: Physical Memory: 3189.41 MB used, 16336.19 MB total
+[2015.05.05-19.57.12:203][  0]LogMemory: Virtual Memory: 285.36 MB used, 134217728.00 MB total
+[2015.05.05-19.57.12:224][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.05.05-19.57.12:224][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.05.05-19.57.12:225][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.05-19.57.12:225][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.05-19.57.12:225][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.05-19.57.12:227][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.05-19.57.12:236][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.05-19.57.12:295][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.05-19.57.12:349][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.05-19.57.12:349][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.05-19.57.12:421][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.05-19.57.14:734][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-19.57.15:492][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-19.57.15:551][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.05-19.57.15:584][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-19.57.15:584][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.05-19.57.15:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/jth7036/MacabreMelody-ST/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.05-19.57.15:584][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.05-19.57.15:695][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.05-19.57.15:707][  0]LogDerivedDataCache: Using Local data cache path D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.05-19.57.15:991][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.05-19.57.15:991][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.05-19.57.16:367][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.05-19.57.16:449][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.05-19.57.17:219][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.05-19.57.17:417][  0]SourceControl: Info Source control is disabled
+[2015.05.05-19.57.17:417][  0]SourceControl: Info Source control is disabled
+[2015.05.05-19.57.17:417][  0]SourceControl: Info Source control is disabled
+[2015.05.05-19.57.17:426][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.05-19.57.34:310][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.05-19.57.34:501][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.05-19.57.34:501][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.05-19.57.34:581][  0]LogEngine: Initializing Engine...
+[2015.05.05-19.57.36:729][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.05-19.57.36:745][  0]LogInit: FAudioDevice initialized.
+[2015.05.05-19.57.36:782][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.05-19.57.36:800][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB D:/Users/jth7036.MAIN.001/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-19.57.36:805][  0]LogInit: Texture streaming: Enabled
+[2015.05.05-19.57.36:895][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.05-19.57.36:895][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-19.57.36:895][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-19.57.36:895][  0]LogAnalytics: SetUserId 593fc67642b971ecd262c8a532266618|76f5d0457a0c47cfa4e62c1627123b6f|3361363f-9ac8-4dd0-8d7c-f16ac9e9cf3e
+[2015.05.05-19.57.36:895][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.05-19.57.36:914][  0]LogInit: Transaction tracking system initialized
+[2015.05.05-19.57.37:090][  0]BlueprintLog: New page: Editor Load
+[2015.05.05-19.57.37:126][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.05.05-19.57.37:126][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.05-19.57.37:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-19.57.38:543][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-19.57.38:793][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.05-19.57.38:794][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.05-19.57.38:800][  0]LogConsoleResponse:Display: 
+[2015.05.05-19.57.38:942][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.05-19.57.39:080][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.05-19.57.41:518][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.05-19.57.41:519][  0]Cmd: MAP LOAD FILE="D:/Users/jth7036/MacabreMelody-ST/Content/MacabreAssets/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.05-19.57.41:519][  0]LightingResults: New page: Lighting Build
+[2015.05.05-19.57.41:534][  0]MapCheck: New page: Map Check
+[2015.05.05-19.57.41:534][  0]LightingResults: New page: Lighting Build
+[2015.05.05-19.57.41:547][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006795C22520
+[2015.05.05-19.57.42:089][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.05-19.57.44:060][  0]LogMaterial:Warning: Material /Game/MacabreAssets/Import/SUV/14_-_Default.14_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2015.05.05-19.57.44:062][  0]LogMaterial: Missing cached shader map for material 14_-_Default, compiling. 
+[2015.05.05-19.57.44:100][  0]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.05-19.57.44:100][  0]LogMaterial:Warning: Material /Game/MacabreAssets/Import/SUV/18_-_Default.18_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2015.05.05-19.57.44:103][  0]LogMaterial: Missing cached shader map for material 18_-_Default, compiling. 
+[2015.05.05-19.57.44:112][  0]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.05-19.57.44:112][  0]LogMaterial:Warning: Material /Game/MacabreAssets/Import/SUV/08_-_Default.08_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2015.05.05-19.57.44:113][  0]LogMaterial: Missing cached shader map for material 08_-_Default, compiling. 
+[2015.05.05-19.57.44:123][  0]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.05-19.57.44:123][  0]LogMaterial:Warning: Material /Game/MacabreAssets/Import/SUV/03_-_Default.03_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2015.05.05-19.57.44:125][  0]LogMaterial: Missing cached shader map for material 03_-_Default, compiling. 
+[2015.05.05-19.57.44:137][  0]LogMaterial: 0.000103 seconds spent updating 1 materi
